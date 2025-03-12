@@ -203,7 +203,7 @@ def audio_analysis_loop():
                     
                     # Use a fixed recording duration to avoid timeouts
                     print("Recording audio chunk...")
-                    audio = recognizer.record(audio_source, duration=3.0)
+                    audio = recognizer.record(audio_source, duration=5.0)
                     print("Audio chunk recorded")
                     
                     # Process the recorded audio
